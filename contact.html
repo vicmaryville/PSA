@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Pastor Sam Adelusimo</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container navbar-container">
+        <div class="navbar-logo">
+          <a href="index.html">
+            <img src="images/PSA-Logo.png" alt="Sam Adelusimo Logo" />
+          </a>
+        </div>
+        <ul class="navbar-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="#" class="btn btn-white">Subscribe Now →</a>
+      </div>
+    </nav>
+
+    <!-- ===== HERO SECTION (Video Background) ===== -->
+    <section class="contact-hero">
+      <video autoplay muted loop playsinline class="contact-hero-video">
+        <source src="videos/contact us.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="contact-hero-overlay">
+        <h1>Get in Touch</h1>
+        <p>
+          We’d love to hear from you. Let’s connect and make something great
+          together.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT FORM SECTION ===== -->
+    <section class="contact-section">
+      <div class="container contact-container">
+        <div class="contact-form">
+          <h2>Contact Us</h2>
+          <form action="https://formspree.io/f/xqagadbn" method="POST">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your full name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email address"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write your message..."
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-outline">Send Message</button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p>
+            Email:
+            <a href="mailto:info@samadelusimo.com">info@samadelusimo.com</a>
+          </p>
+          <p>Phone: +1 (555) 123-4567</p>
+          <p>Location: Rogers, Northwest Arkansas</p>
+
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="images/PSA-Logo.png" alt="Sam Adelusimo" />
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Programs</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Store</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-legal">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-envelope"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 Pastor Sam Adelusimo. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
